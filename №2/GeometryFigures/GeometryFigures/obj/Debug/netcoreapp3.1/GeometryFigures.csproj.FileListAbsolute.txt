@@ -1,0 +1,13 @@
+D:\bmstu_studing\инфа\БКИТ\Лабы\№2\GeometryFigures\GeometryFigures\bin\Debug\netcoreapp3.1\GeometryFigures.exe
+D:\bmstu_studing\инфа\БКИТ\Лабы\№2\GeometryFigures\GeometryFigures\bin\Debug\netcoreapp3.1\GeometryFigures.deps.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№2\GeometryFigures\GeometryFigures\bin\Debug\netcoreapp3.1\GeometryFigures.runtimeconfig.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№2\GeometryFigures\GeometryFigures\bin\Debug\netcoreapp3.1\GeometryFigures.runtimeconfig.dev.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№2\GeometryFigures\GeometryFigures\bin\Debug\netcoreapp3.1\GeometryFigures.dll
+D:\bmstu_studing\инфа\БКИТ\Лабы\№2\GeometryFigures\GeometryFigures\bin\Debug\netcoreapp3.1\GeometryFigures.pdb
+D:\bmstu_studing\инфа\БКИТ\Лабы\№2\GeometryFigures\GeometryFigures\obj\Debug\netcoreapp3.1\GeometryFigures.csprojAssemblyReference.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№2\GeometryFigures\GeometryFigures\obj\Debug\netcoreapp3.1\GeometryFigures.AssemblyInfoInputs.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№2\GeometryFigures\GeometryFigures\obj\Debug\netcoreapp3.1\GeometryFigures.AssemblyInfo.cs
+D:\bmstu_studing\инфа\БКИТ\Лабы\№2\GeometryFigures\GeometryFigures\obj\Debug\netcoreapp3.1\GeometryFigures.csproj.CoreCompileInputs.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№2\GeometryFigures\GeometryFigures\obj\Debug\netcoreapp3.1\GeometryFigures.dll
+D:\bmstu_studing\инфа\БКИТ\Лабы\№2\GeometryFigures\GeometryFigures\obj\Debug\netcoreapp3.1\GeometryFigures.pdb
+D:\bmstu_studing\инфа\БКИТ\Лабы\№2\GeometryFigures\GeometryFigures\obj\Debug\netcoreapp3.1\GeometryFigures.genruntimeconfig.cache

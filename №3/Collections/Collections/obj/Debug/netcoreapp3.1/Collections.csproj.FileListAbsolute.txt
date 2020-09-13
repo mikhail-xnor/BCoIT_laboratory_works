@@ -1,0 +1,13 @@
+D:\bmstu_studing\инфа\БКИТ\Лабы\№3\Collections\Collections\bin\Debug\netcoreapp3.1\Collections.exe
+D:\bmstu_studing\инфа\БКИТ\Лабы\№3\Collections\Collections\bin\Debug\netcoreapp3.1\Collections.deps.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№3\Collections\Collections\bin\Debug\netcoreapp3.1\Collections.runtimeconfig.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№3\Collections\Collections\bin\Debug\netcoreapp3.1\Collections.runtimeconfig.dev.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№3\Collections\Collections\bin\Debug\netcoreapp3.1\Collections.dll
+D:\bmstu_studing\инфа\БКИТ\Лабы\№3\Collections\Collections\bin\Debug\netcoreapp3.1\Collections.pdb
+D:\bmstu_studing\инфа\БКИТ\Лабы\№3\Collections\Collections\obj\Debug\netcoreapp3.1\Collections.csprojAssemblyReference.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№3\Collections\Collections\obj\Debug\netcoreapp3.1\Collections.AssemblyInfoInputs.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№3\Collections\Collections\obj\Debug\netcoreapp3.1\Collections.AssemblyInfo.cs
+D:\bmstu_studing\инфа\БКИТ\Лабы\№3\Collections\Collections\obj\Debug\netcoreapp3.1\Collections.csproj.CoreCompileInputs.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№3\Collections\Collections\obj\Debug\netcoreapp3.1\Collections.dll
+D:\bmstu_studing\инфа\БКИТ\Лабы\№3\Collections\Collections\obj\Debug\netcoreapp3.1\Collections.pdb
+D:\bmstu_studing\инфа\БКИТ\Лабы\№3\Collections\Collections\obj\Debug\netcoreapp3.1\Collections.genruntimeconfig.cache

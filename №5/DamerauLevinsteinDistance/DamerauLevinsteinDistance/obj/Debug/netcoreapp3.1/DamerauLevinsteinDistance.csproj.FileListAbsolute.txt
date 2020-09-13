@@ -1,0 +1,16 @@
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\obj\Debug\netcoreapp3.1\DamerauLevinsteinDistance.csprojAssemblyReference.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\obj\Debug\netcoreapp3.1\DamerauLevinsteinDistance.AssemblyInfoInputs.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\obj\Debug\netcoreapp3.1\DamerauLevinsteinDistance.AssemblyInfo.cs
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\obj\Debug\netcoreapp3.1\DamerauLevinsteinDistance.csproj.CoreCompileInputs.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\bin\Debug\netcoreapp3.1\DamerauLevinsteinDistance.exe
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\bin\Debug\netcoreapp3.1\DamerauLevinsteinDistance.deps.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\bin\Debug\netcoreapp3.1\DamerauLevinsteinDistance.runtimeconfig.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\bin\Debug\netcoreapp3.1\DamerauLevinsteinDistance.runtimeconfig.dev.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\bin\Debug\netcoreapp3.1\DamerauLevinsteinDistance.dll
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\bin\Debug\netcoreapp3.1\DamerauLevinsteinDistance.pdb
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\bin\Debug\netcoreapp3.1\VagnerFisherAlgorithmlib.dll
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\bin\Debug\netcoreapp3.1\VagnerFisherAlgorithmlib.pdb
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\obj\Debug\netcoreapp3.1\DamerauLevinsteinDistance.csproj.CopyComplete
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\obj\Debug\netcoreapp3.1\DamerauLevinsteinDistance.dll
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\obj\Debug\netcoreapp3.1\DamerauLevinsteinDistance.pdb
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\DamerauLevinsteinDistance\obj\Debug\netcoreapp3.1\DamerauLevinsteinDistance.genruntimeconfig.cache
