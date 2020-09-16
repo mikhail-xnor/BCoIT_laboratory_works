@@ -1,0 +1,13 @@
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedDelegates\RealizedDelegates\bin\Debug\netcoreapp3.1\RealizedDelegates.exe
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedDelegates\RealizedDelegates\bin\Debug\netcoreapp3.1\RealizedDelegates.deps.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedDelegates\RealizedDelegates\bin\Debug\netcoreapp3.1\RealizedDelegates.runtimeconfig.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedDelegates\RealizedDelegates\bin\Debug\netcoreapp3.1\RealizedDelegates.runtimeconfig.dev.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedDelegates\RealizedDelegates\bin\Debug\netcoreapp3.1\RealizedDelegates.dll
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedDelegates\RealizedDelegates\bin\Debug\netcoreapp3.1\RealizedDelegates.pdb
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedDelegates\RealizedDelegates\obj\Debug\netcoreapp3.1\RealizedDelegates.csprojAssemblyReference.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedDelegates\RealizedDelegates\obj\Debug\netcoreapp3.1\RealizedDelegates.AssemblyInfoInputs.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedDelegates\RealizedDelegates\obj\Debug\netcoreapp3.1\RealizedDelegates.AssemblyInfo.cs
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedDelegates\RealizedDelegates\obj\Debug\netcoreapp3.1\RealizedDelegates.csproj.CoreCompileInputs.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedDelegates\RealizedDelegates\obj\Debug\netcoreapp3.1\RealizedDelegates.dll
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedDelegates\RealizedDelegates\obj\Debug\netcoreapp3.1\RealizedDelegates.pdb
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedDelegates\RealizedDelegates\obj\Debug\netcoreapp3.1\RealizedDelegates.genruntimeconfig.cache

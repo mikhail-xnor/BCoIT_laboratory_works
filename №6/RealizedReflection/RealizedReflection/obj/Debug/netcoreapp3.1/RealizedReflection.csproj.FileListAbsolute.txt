@@ -1,0 +1,13 @@
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedReflection\RealizedReflection\bin\Debug\netcoreapp3.1\RealizedReflection.exe
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedReflection\RealizedReflection\bin\Debug\netcoreapp3.1\RealizedReflection.deps.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedReflection\RealizedReflection\bin\Debug\netcoreapp3.1\RealizedReflection.runtimeconfig.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedReflection\RealizedReflection\bin\Debug\netcoreapp3.1\RealizedReflection.runtimeconfig.dev.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedReflection\RealizedReflection\bin\Debug\netcoreapp3.1\RealizedReflection.dll
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedReflection\RealizedReflection\bin\Debug\netcoreapp3.1\RealizedReflection.pdb
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedReflection\RealizedReflection\obj\Debug\netcoreapp3.1\RealizedReflection.csprojAssemblyReference.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedReflection\RealizedReflection\obj\Debug\netcoreapp3.1\RealizedReflection.AssemblyInfoInputs.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedReflection\RealizedReflection\obj\Debug\netcoreapp3.1\RealizedReflection.AssemblyInfo.cs
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedReflection\RealizedReflection\obj\Debug\netcoreapp3.1\RealizedReflection.csproj.CoreCompileInputs.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedReflection\RealizedReflection\obj\Debug\netcoreapp3.1\RealizedReflection.dll
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedReflection\RealizedReflection\obj\Debug\netcoreapp3.1\RealizedReflection.pdb
+D:\bmstu_studing\инфа\БКИТ\Лабы\№6\RealizedReflection\RealizedReflection\obj\Debug\netcoreapp3.1\RealizedReflection.genruntimeconfig.cache

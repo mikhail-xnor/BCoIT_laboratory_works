@@ -36,7 +36,7 @@ namespace Collections
         }
         public override string ToString()
         {
-            return "Высота: " + height.ToString() + "; ширина: " + width.ToString();
+            return "Высота: " + height.ToString() + "; ширина: " + width.ToString() + "; площадь: " + CalcArea().ToString();
         }
         public void Print()
         {
@@ -60,7 +60,7 @@ namespace Collections
         }
         public override string ToString()
         {
-            return "Сторона: " + height.ToString();
+            return "Сторона: " + height.ToString() + "; площадь: " + CalcArea().ToString();
         }
     }
     class Circle : GeometryFigure, IPrint
@@ -76,7 +76,7 @@ namespace Collections
         }
         public override string ToString()
         {
-            return "Радиус: " + radius.ToString();
+            return "Радиус: " + radius.ToString() + "; площадь: " + CalcArea().ToString();
         }
         public void Print()
         {

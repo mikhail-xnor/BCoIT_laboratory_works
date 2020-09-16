@@ -49,7 +49,7 @@ namespace GeometryFigures
         }
         public override string ToString()
         {
-            return "Высота: " + height.ToString() + "; ширина: " + width.ToString();
+            return "Высота: " + height.ToString() + "; ширина: " + width.ToString() + "; площадь: " + CalcArea().ToString();
         }
         public void Print()
         {
@@ -97,7 +97,7 @@ namespace GeometryFigures
         }
         public override string ToString()
         {
-            return "Сторона: " + height.ToString();
+            return "Сторона: " + height.ToString() + "; площадь: " + CalcArea().ToString();
         }
     }
     class Circle : GeometryFigure, IPrint
@@ -113,7 +113,7 @@ namespace GeometryFigures
         }
         public override string ToString()
         {
-            return "Радиус: " + radius.ToString();
+            return "Радиус: " + radius.ToString() + "; площадь: " + CalcArea().ToString();
         }
         public void Print()
         {
@@ -125,20 +125,27 @@ namespace GeometryFigures
     {
         static void Main(string[] args)
         {
-            Rectangle rect = new Rectangle(1, 2);
-            Square sq = new Square(10);
-            Circle cir = new Circle(22);
-
-            sq.Width = 22;
-            sq.Height = 1;
-            sq.side = 14;
-
-            Console.WriteLine("Hello World!" + sq.CalcArea().ToString());
-            rect.Print();
-            sq.Print();
-            cir.Print();
-            rect = sq;
-            rect.Print();
+            Rectangle rect = new Rectangle(2, 512);
+            Console.WriteLine("Прямоугольник с параметрами: {0}", rect.ToString());
+            rect = new Rectangle(8, 256);
+            Console.WriteLine("Прямоугольник с параметрами: {0}", rect.ToString());
+            rect = new Rectangle(128, 64);
+            Console.WriteLine("Прямоугольник с параметрами: {0}\n", rect.ToString());
+            Square sq = new Square(32);
+            Console.WriteLine("Квадарт с параметрами: {0}", sq.ToString());
+            sq = new Square(256);
+            Console.WriteLine("Квадарт с параметрами: {0}", sq.ToString());
+            sq = new Square(1024);
+            Console.WriteLine("Квадарт с параметрами: {0}\n", sq.ToString());
+            Circle cir = new Circle(16);
+            Console.WriteLine("Круг с параметрами: {0}", cir.ToString());
+            cir = new Circle(256);
+            Console.WriteLine("Круг с параметрами: {0}", cir.ToString());
+            cir = new Circle(1024);
+            Console.WriteLine("Круг с параметрами: {0}", cir.ToString());
+            cir = new Circle(25.5323059456916913);
+            Console.WriteLine("Круг с параметрами: {0}", cir.ToString());
+            Console.ReadKey();
         }
     }
 }
