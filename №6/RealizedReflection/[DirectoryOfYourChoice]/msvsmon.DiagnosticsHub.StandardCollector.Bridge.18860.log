@@ -1,0 +1,43 @@
+============= Diagnostics Hub Log =============
+
+Debug --- StandardCollector.Bridge.cpp --- Querying VS for Performance Debugger status
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '14'
+Debug --- StandardCollector.Bridge.cpp --- Performance Debugger status: create new session
+Info --- StandardCollector.Bridge.cpp --- Creating collection session for performance debugging.
+Debug --- CollectionSession.cpp --- Creating collection service for scenario '0' from location '0'
+Debug --- CollectionSession.cpp --- Created collection session '{5EAD366A-603A-44C9-B365-257A69581243}'
+Info --- CollectionSession.cpp --- Started collection session (Performance Debugger)
+Debug --- TargetProcessMonitor.cpp --- Registered process exit handler for process ID: 14240
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 14240, Event ID: 18446744073709551615, Timestamp: 404783981946
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 14240, Enter Timestamp: 404783981946, Exit Timestamp: 404784038704
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 14240, Event ID: 404785713411, Timestamp: 404785713411
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 14240, Enter Timestamp: 404785713411, Exit Timestamp: 404787572903
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 14240, Event ID: 404787870847, Timestamp: 404787870847
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 14240, Enter Timestamp: 404787870847, Exit Timestamp: 404788242398
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 14240, Event ID: 404788325086, Timestamp: 404788325086
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 14240, Enter Timestamp: 404788325086, Exit Timestamp: 404788331610
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 14240, Event ID: 404788333596, Timestamp: 404788333596
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 14240, Enter Timestamp: 404788333596, Exit Timestamp: 404788340144
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 14240, Event ID: 404788486569, Timestamp: 404788486569
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 14240, Enter Timestamp: 404788486569, Exit Timestamp: 404788538445
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 14240, Event ID: 404788588961, Timestamp: 404788588961
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 14240, Enter Timestamp: 404788588961, Exit Timestamp: 404788597462
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 14240, Event ID: 404788721488, Timestamp: 404788721488
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 14240, Enter Timestamp: 404788721488, Exit Timestamp: 404788731593
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 14240, Event ID: 404788755541, Timestamp: 404788755541
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 14240, Enter Timestamp: 404788755541, Exit Timestamp: 404788977822
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 14240, Event ID: 404789018200, Timestamp: 404789018200
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 14240, Enter Timestamp: 404789018200, Exit Timestamp: 404789038336
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 14240, Event ID: 404789163271, Timestamp: 404789163271
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 14240, Enter Timestamp: 404789163271, Exit Timestamp: 404789172555
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 14240, Event ID: 404789237768, Timestamp: 404789237768
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 14240, Enter Timestamp: 404789237768, Exit Timestamp: 404789246444
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 14240, Event ID: 404789274749, Timestamp: 404789274749
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 14240, Enter Timestamp: 404789274749, Exit Timestamp: 404789292176
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 14240, Event ID: 404789445713, Timestamp: 404789445713
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 14240, Enter Timestamp: 404789445713, Exit Timestamp: 404789452318
+Info --- TargetProcessMonitor.cpp --- Targeted process (PID: 14240) has exited
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '11'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '13'
+Debug --- CollectionSession.cpp --- Requesting destroy (async) on collection session '{5EAD366A-603A-44C9-B365-257A69581243}'.
+Warning --- CollectionSession.cpp --- Bridge collection session is shutting down, but session is still active. Setting delegate to null.

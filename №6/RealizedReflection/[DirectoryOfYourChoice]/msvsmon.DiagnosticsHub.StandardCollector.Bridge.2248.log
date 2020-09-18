@@ -1,0 +1,68 @@
+============= Diagnostics Hub Log =============
+
+Debug --- StandardCollector.Bridge.cpp --- Querying VS for Performance Debugger status
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '14'
+Debug --- StandardCollector.Bridge.cpp --- Performance Debugger status: create new session
+Info --- StandardCollector.Bridge.cpp --- Creating collection session for performance debugging.
+Debug --- CollectionSession.cpp --- Creating collection service for scenario '0' from location '0'
+Debug --- CollectionSession.cpp --- Created collection session '{AEE4E8C2-E51A-4F50-8D7B-9E9A2039CC99}'
+Info --- CollectionSession.cpp --- Started collection session (Performance Debugger)
+Debug --- TargetProcessMonitor.cpp --- Registered process exit handler for process ID: 17368
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 17368, Event ID: 18446744073709551615, Timestamp: 405908725913
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 17368, Enter Timestamp: 405908725913, Exit Timestamp: 405908779076
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 17368, Event ID: 405909951698, Timestamp: 405909951698
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 17368, Enter Timestamp: 405909951698, Exit Timestamp: 405911725723
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 17368, Event ID: 405912015635, Timestamp: 405912015635
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 17368, Enter Timestamp: 405912015635, Exit Timestamp: 405912423885
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 17368, Event ID: 405912507839, Timestamp: 405912507839
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 17368, Enter Timestamp: 405912507839, Exit Timestamp: 405912514242
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 17368, Event ID: 405912516127, Timestamp: 405912516127
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 17368, Enter Timestamp: 405912516127, Exit Timestamp: 405912522664
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '20'
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 17368, Event ID: 405912754337, Timestamp: 405912754337
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 17368, Enter Timestamp: 405912754337, Exit Timestamp: 405912835768
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 17368, Event ID: 405912888188, Timestamp: 405912888188
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 17368, Enter Timestamp: 405912888188, Exit Timestamp: 405912897170
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 17368, Event ID: 405913009012, Timestamp: 405913009012
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 17368, Enter Timestamp: 405913009012, Exit Timestamp: 405913019022
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 17368, Event ID: 405913049755, Timestamp: 405913049755
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 17368, Enter Timestamp: 405913049755, Exit Timestamp: 405913894980
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 17368, Event ID: 405913946195, Timestamp: 405913946195
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 17368, Enter Timestamp: 405913946195, Exit Timestamp: 405913956603
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 17368, Event ID: 405914096228, Timestamp: 405914096228
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 17368, Enter Timestamp: 405914096228, Exit Timestamp: 405914104785
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 17368, Event ID: 405914168795, Timestamp: 405914168795
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 17368, Enter Timestamp: 405914168795, Exit Timestamp: 405914179094
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 17368, Event ID: 405914209732, Timestamp: 405914209732
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 17368, Enter Timestamp: 405914209732, Exit Timestamp: 405914225235
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '20'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 17368, Event ID: 405954026766, Timestamp: 405954026766
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 17368, Enter Timestamp: 405954026766, Exit Timestamp: 405954034065
+Info --- TargetProcessMonitor.cpp --- Targeted process (PID: 17368) has exited
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '10'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '11'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '12'
+Debug --- TargetProcessMonitor.cpp --- Unregistered process exit handler for process ID: 17368
+Debug --- TargetProcessMonitor.cpp --- Session has no remaining target processes
+Debug --- StandardCollector.Bridge.cpp --- Notifying client that there are no remaining target processes.
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '13'
+Debug --- CollectionSession.cpp --- Requesting destroy on collection session '{AEE4E8C2-E51A-4F50-8D7B-9E9A2039CC99}'.
+Debug --- CollectionSession.cpp --- Creating collection service for scenario '1' from location '1'

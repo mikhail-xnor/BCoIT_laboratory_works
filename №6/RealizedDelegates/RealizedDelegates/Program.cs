@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections;
-using System.Runtime.InteropServices.ComTypes;
-using System.Runtime.InteropServices.WindowsRuntime;
+
 
 namespace RealizedDelegates
 {
@@ -11,44 +9,87 @@ namespace RealizedDelegates
         delegate T SecondDelegate<T, Q>(params Q[] param);
         static void Main(string[] args)
         {
-            FirstDelegate<string, string, int> mCopy;
-            mCopy = multiCopy;
-            Console.WriteLine("Hello World! " + multiCopyOrConcat(mCopy, 22, "qwerty ") + multiCopyOrConcat(mCopy, 0, "q", "w", "e", "r", "t", "y"));
-            FirstDelegate<int, int, int> lmd = (i, j) => (int)Math.Pow(i, j);
-            StartDelegate(lmd, 2, 10);
-            Action<string, int> actionDelegate = ConsoleOutput;
-            StartDelegate(actionDelegate, " Hello, world? ", 4);
-            string[] str = new string[1];
-            str[0] = "hallo";
-            Func<FirstDelegate<string, string, int>, int, string[], string> funcDelegate = multiCopyOrConcat;
-            Console.WriteLine(funcDelegate(mCopy, 22, str));
+            Console.WriteLine("Для теста используется 3 функции:\n1) Множественное копирование строки\n2) Многочисленное разделение символов строки\n3) Множественное копирование символов строки\n");
+            // Delegate
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.WriteLine("\nTest Delegate:\n");
+            Console.BackgroundColor = ConsoleColor.Black;
+            FirstDelegate<string, string, int> multiAction;
+            multiAction = MultiCopy;
+            Console.WriteLine("{0}\n", MultiCopyOrSplit(multiAction, "qwerty ", 22));
+            multiAction = MultiSplitWord;
+            Console.WriteLine("{0}\n", MultiCopyOrSplit(multiAction, "qwerty", 1));
+            multiAction = (str, countSymCopy) => { 
+                for (int i = str.Length - 1; i != -1; --i) 
+                    str = str.Insert(i, MultiCopy(str[i].ToString(), countSymCopy - 1));
+                return str;
+            };
+            Console.WriteLine("{0}\n", MultiCopyOrSplit(multiAction, "qwerty", 4));
+
+            // Action
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.WriteLine("\nTest Action:\n");
+            Console.BackgroundColor = ConsoleColor.Black;
+            Action<string, int> actionDelegate = ConsoleOutputMultiCopy;
+            actionDelegate += ConsoleOutputMultiSplitWord;
+            actionDelegate += (str, countSymCopy) => { 
+                for (int i = str.Length - 1; i != -1; --i)
+                    str = str.Insert(i, MultiCopy(str[i].ToString(), countSymCopy - 1));
+                Console.WriteLine(str);
+            };
+            StartAction(actionDelegate, "Hello!", 4);
+
+            //Func
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.WriteLine("\nTest Func:\n");
+            Console.BackgroundColor = ConsoleColor.Black;
+            Func<string, int, string> funcDelegate;
+            funcDelegate = MultiCopy;
+            Console.WriteLine("{0}\n", MultiCopyOrSplit(funcDelegate, "qwerty ", 22));
+            funcDelegate = MultiSplitWord;
+            Console.WriteLine("{0}\n", MultiCopyOrSplit(funcDelegate, "qwerty", 1));
+            funcDelegate = (str, countSymCopy) => {
+                for (int i = str.Length - 1; i != -1; --i)
+                    str = str.Insert(i, MultiCopy(str[i].ToString(), countSymCopy - 1));
+                return str;
+            };
+            Console.WriteLine("{0}\n", MultiCopyOrSplit(funcDelegate, "qwerty", 4));
+            Console.ReadKey();
         }
-        static void StartDelegate(Action<string, int> method, string str, int copyCount)
+        static void StartAction(Action<string, int> method, string str, int copyCount)
         {
             method(str, copyCount);
         }
-        static void StartDelegate(FirstDelegate<int, int, int> method, int firstNum, int secondNum)
+        static void ConsoleOutputMultiCopy(string str, int count)
         {
-            Console.WriteLine("\n{0}\n", method(firstNum, secondNum));
+            Console.WriteLine(MultiCopy(str, count));
         }
-        static void ConsoleOutput(string str, int count)
+        static void ConsoleOutputMultiSplitWord(string str, int count)
         {
-            Console.WriteLine(multiCopy(str, count));
+            Console.WriteLine(MultiSplitWord(str, count));
         }
-        static string multiCopyOrConcat(FirstDelegate<string, string, int> method, int count = 0, params string[] str) //error
+        static string MultiCopyOrSplit(FirstDelegate<string, string, int> method, string str, int count)
         {
-            if (count > 0)
-                return method(str[0], count);
-            return multiConcat(str);
+            return method(str, count);
         }
-        static string multiCopy(string strF, int count)
+        static string MultiCopyOrSplit(Func<string, int, string> method, string str, int count)
+        {
+            return method(str, count);
+        }
+        static string MultiSplitWord(string str, int countOfSpaces)
+        {
+            for (int i = str.Length - 1; i != 0; --i)
+                str = str.Insert(i, MultiCopy(" ", countOfSpaces));
+            return str;
+        }
+        static string MultiCopy(string strF, int count)
         {
             string strResult = "";
             for (int i = 0; i != count; ++i)
                 strResult += strF;
             return strResult;
         }
-        static string multiConcat(params string[] strArray)
+        static string MultiConcat(params string[] strArray)
         {
             string strResult = "";
             foreach (string i in strArray)

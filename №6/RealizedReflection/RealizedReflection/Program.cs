@@ -88,7 +88,6 @@ namespace RealizedReflection
         static void Main(string[] args)
         {
             RoadTrafficAccidentsData a = new RoadTrafficAccidentsData();
-            //a.WeekStatisticsOutput();
             Type myType = Type.GetType("RealizedReflection.RoadTrafficAccidentsData", false, true);
             object obj = Activator.CreateInstance(myType);
             MethodInfo method = myType.GetMethod("WeekStatisticsOutput");
@@ -96,10 +95,6 @@ namespace RealizedReflection
             {
                 Console.WriteLine($"{i.DeclaringType} {i.MemberType} {i.Name}\n");
             }
-            //foreach (FieldInfo field in myType.GetFields())
-            //{
-            //    Console.WriteLine($"{field.FieldType} {field.Name}\n");
-            //}
             myType = Type.GetType("RealizedReflection.DayAccidentsData", false, true);
             foreach (PropertyInfo prop in myType.GetProperties())
             {
@@ -107,7 +102,11 @@ namespace RealizedReflection
                 if (isAttribute != null)
                     Console.WriteLine("{0} {1} {2} CountIs: {3}\n", prop.PropertyType, prop.Name, isAttribute.GetType(), isAttribute.ToString());
             }
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.WriteLine("Call method of class:");
+            Console.BackgroundColor = ConsoleColor.Black;
             method.Invoke(obj,new object[] { });
+            Console.ReadKey();
         }
     }
 }
