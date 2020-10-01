@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 
+
 namespace Collections
 {
     class Program
@@ -34,7 +35,7 @@ namespace Collections
             Console.WriteLine("\nMatrix заполненая");
             Console.WriteLine("----------------------------------\n");
 
-            SparseMatrix.Matrix<int> x = new SparseMatrix.Matrix<int>(5, 5, 5, 9);
+            SparseMatrix.Matrix<GeometryFigure> x = new SparseMatrix.Matrix<GeometryFigure>(5, 5, 5, new Square(5));
             Console.WriteLine(x.ToString());
 
             Console.WriteLine("\nSimpleStack заполненый Square с стороной выбранной случайно");

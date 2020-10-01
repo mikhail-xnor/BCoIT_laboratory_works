@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bFo7h1UY1YBQKOKNhCmJWo7R9SSFVU2uDYvUhV4Pi2zGO+8rZTfIDKv6FnHA8WmrtoEHuDGALzyKuYGoTGokaw==",
+  "success": true,
+  "projectFilePath": "D:\\bmstu_studing\\инфа\\БКИТ\\Лабы\\№5\\DamerauLevinsteinDistance\\VagnerFisherAlgorithmlib\\VagnerFisherAlgorithmlib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\misha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\misha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

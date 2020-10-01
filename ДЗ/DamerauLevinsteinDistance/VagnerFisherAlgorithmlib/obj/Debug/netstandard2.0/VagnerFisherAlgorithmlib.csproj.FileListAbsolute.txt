@@ -1,0 +1,8 @@
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\VagnerFisherAlgorithmlib\bin\Debug\netstandard2.0\VagnerFisherAlgorithmlib.deps.json
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\VagnerFisherAlgorithmlib\bin\Debug\netstandard2.0\VagnerFisherAlgorithmlib.dll
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\VagnerFisherAlgorithmlib\bin\Debug\netstandard2.0\VagnerFisherAlgorithmlib.pdb
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\VagnerFisherAlgorithmlib\obj\Debug\netstandard2.0\VagnerFisherAlgorithmlib.AssemblyInfoInputs.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\VagnerFisherAlgorithmlib\obj\Debug\netstandard2.0\VagnerFisherAlgorithmlib.AssemblyInfo.cs
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\VagnerFisherAlgorithmlib\obj\Debug\netstandard2.0\VagnerFisherAlgorithmlib.csproj.CoreCompileInputs.cache
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\VagnerFisherAlgorithmlib\obj\Debug\netstandard2.0\VagnerFisherAlgorithmlib.dll
+D:\bmstu_studing\инфа\БКИТ\Лабы\№5\DamerauLevinsteinDistance\VagnerFisherAlgorithmlib\obj\Debug\netstandard2.0\VagnerFisherAlgorithmlib.pdb
